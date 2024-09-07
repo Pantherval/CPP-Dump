@@ -1,0 +1,20 @@
+/*Adi Sulaksono
+TPB 49 120140038*/
+#include <iostream>
+using namespace std;
+
+int main() { 
+    float C;
+    
+    cout<<"KONVERSI SUHU CELCIUS "<<endl;
+	float c;
+	cout<<"Masukan Suhu (Celsius) : ";
+	cin>>c;
+	
+	cout<<"Hasil Konversi Suhu dari Celsius adalah :"<<endl;
+	cout<<"Kelvin     : "<< c+273.15 <<endl;
+	cout<<"Fahrenheit : "<< (c*9/5)+32 <<endl;
+	cout<<"Reaumur    : "<< c*4/5 <<endl;
+	
+	return 0;
+}

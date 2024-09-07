@@ -1,0 +1,24 @@
+/*Adi Sulaksono
+TPB 49 120140038*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int bil;
+    int negatif;
+    int positif;
+    
+    cout << "masukkan bilangan :";
+    cin  >> bil;
+    if (bil<0){
+    	negatif;
+    	cout<< "angka" << bil << "adalah bilangan negatif";
+	}else if (bil>0){
+		positif;
+		cout<< "angka" << bil << "adalah bilangan positif";
+	}else {
+		cout<< "angka" << bil << "adalah bilangan nol";
+	}
+    return 0;
+}

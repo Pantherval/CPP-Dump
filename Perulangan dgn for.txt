@@ -1,0 +1,17 @@
+/*Adi Sulaksono
+TPB 49 120140038*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    for(int i = 1; i <= 100; i++){
+        cout<< "Perulangan ke-"<< i<< endl;
+    }
+
+    return 0;
+}
+
+//For digunakan untuk mengulang yang sudah diketahui nilainya
+/* bentuk lain i++ berikut : ++i
+contoh lain +=2 hasil perulangannya punya selisih dua */
